@@ -1,0 +1,18 @@
+{
+    "app": {
+        "title": "Task Manager API",
+        "description": "API para gerenciamento de tasks",
+        "version": "0.0.1",
+        "openapi_url": "/openapi.json",
+        "contact": {
+            "name": "Alexandre Ferreira de Lima",
+            "email": "alexandre.ferreira1445@gmail.com"
+        },
+        "servers": [
+            {
+                "url": "http://localhost:8000",
+                "description": "Development server"
+            }
+        ]
+    }
+}

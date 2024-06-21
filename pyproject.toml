@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre Ferreira de Lima <alexandre.ferreira1445@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+sqlalchemy = "^2.0.31"
+uvicorn = "^0.30.1"
+dynaconf = "^3.2.5"
+pydantic = "^2.7.4"
+pytest = "^8.2.2"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
